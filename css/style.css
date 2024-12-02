@@ -311,4 +311,15 @@ footer {
         margin-right: 10px;
         width: 20%;
     }
+
+    .info-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        text-align: start;
+        padding: 0 20px;
+        line-height: 35px;
+    }
 }
