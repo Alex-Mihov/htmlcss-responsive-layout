@@ -1,0 +1,141 @@
+/* regole generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+    font-size: 20px;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.col,
+.col_video,
+.col_info {
+    /* DEBUG */
+    height: 150px;
+    background-color: red;
+    border: solid 2px #000;
+}
+
+/*********************************************************
+                       HEADER
+**********************************************************/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+header h1 {
+    color: #fe9f2a;
+    font-family: 'Nerko One', cursive;
+}
+
+
+/*********************************************************
+                       MAIN
+**********************************************************/
+/* regole contenuto principale */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    /* DEBUG */
+    
+}
+
+/* info ricetta */
+
+#info-ricetta {
+    padding-bottom: 40px;
+    
+}
+
+.food-type {
+    color: gray;
+}
+
+h2{
+    color: #4e3969;
+}
+
+.text-plus {
+    display: none;
+}
+
+.col-video img {
+    width: 100%;
+}
+
+.col-info ul {
+    list-style: none;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.col-info li {
+    font-size: 16px;
+    padding: 7px;
+    margin-left: 20px;
+    
+}
+
+#title-list {
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* sezione social e banner */
+#social {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#social div{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+#social span {
+    display: none;
+}
+
+#banner {
+    display: none;
+}
+
+
+/*********************************************************
+                       FOOTER
+**********************************************************/
+footer {
+    background-color: blueviolet;
+    /* DEBUG */
+    height: 150px;
+}
+
+/*********************************************************
+                   VERSIONE TABLET
+**********************************************************/
+@media screen and (min-width:768px) {
+
+    #banner {
+        display: block;
+    }
+
+}
+
+/*********************************************************
+                   VERSIONE DESKTOP
+**********************************************************/
+@media screen and (min-width:992px) {
+
+}
